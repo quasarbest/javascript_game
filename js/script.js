@@ -73,7 +73,7 @@ function handleBoxClick(event) {
 function renderBox() {
    $game.innerHTML = "";
    let box = document.createElement("div");
-   let boxSize = getRandom(25, 110);
+   let boxSize = getRandom(25, 75);
    let gameSize = $game.getBoundingClientRect();
    let maxTop = gameSize.height - boxSize;
    let maxLeft = gameSize.width - boxSize;
