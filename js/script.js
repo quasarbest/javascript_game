@@ -73,16 +73,14 @@ function handleBoxClick(event) {
 function renderBox() {
    $game.innerHTML = "";
    let box = document.createElement("div");
-   let boxSize = getRandom(25, 75);
+   let boxSize = getRandom(25, 90);
    let gameSize = $game.getBoundingClientRect();
    let maxTop = gameSize.height - boxSize;
    let maxLeft = gameSize.width - boxSize;
-   let color = (box.style.backgroundColor = "#000000");
-
+   
    box.style.height = box.style.width = boxSize + "px";
    box.style.position = "absolute";
    box.style.backgroundColor = "#" + getRandom(0, maxTop);
-   //   box.style.backgroundColor = '#000'
    box.style.top = getRandom(0, maxTop) + "px";
    box.style.left = getRandom(0, maxLeft) + "px";
    box.setAttribute("data-box", "true");

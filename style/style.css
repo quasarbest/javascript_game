@@ -104,11 +104,11 @@ body {
   border-radius: 50%;
   -webkit-box-shadow: 0 6px 16px 0 #000000d2;
           box-shadow: 0 6px 16px 0 #000000d2;
-  -webkit-transform: scale(0.85);
-      -ms-transform: scale(0.85);
-          transform: scale(0.85);
-  -webkit-animation: pulse .7s ease-in-out;
-          animation: pulse .7s ease-in-out;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-animation: pulse .5s ease-in-out;
+          animation: pulse .5s ease-in-out;
 }
 
 @-webkit-keyframes pulse {
